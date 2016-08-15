@@ -17,28 +17,33 @@
           <input type="text" id="location">
         </div>
         <div>
+          <h3>Development type</h3>
           <select class="form-control" id="devtype">
             <option>Front-End</option>
             <option>Back-End</option>
             <option>Data-Science</option>
           </select>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="planguage" value="polyglot" checked>
-            Polyglot
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="planguage" value="monoglot">
-            Monoglot
-          </label>
-        </div>
-        <div class="">
+        <div>
+          <h3>How many languages do you want to learn?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="platform" value="web" checked>
+              <input type="radio" name="planguage" value="polyglot">
+              Polyglot
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="planguage" value="monoglot">
+              Monoglot
+            </label>
+          </div>
+        </div>
+        <div>
+          <h3>What kind of platform do you want to work on?</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="platform" value="web">
               Web
             </label>
             <label>
@@ -51,12 +56,24 @@
           <input type="submit" value="Submit">
           <input type="reset">
         </div>
+        <div>
+          <h3>Company Type</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="company" value="startup">
+              Startup
+            </label>
+            <label>
+              <input type="radio" name="company" value="db">
+              Database/Static Web
+            </label>
+          </div>
+        </div>
       </form>
+      <div class="output">
+      </div>
     </div>
   </div>
-
-
-
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
