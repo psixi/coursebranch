@@ -8,11 +8,51 @@
 <body>
   <div class="container">
     <h1>Code Track Guide</h1>
-      <div id="form">
+    <div id="form">
       <h2>Find the right track for you by filling out the form below</h2>
-      <label>Where are you located?</label>
-            <br>
-            <input type="text" name="n" id="location" for="userName">
+      <form>
+        <div class="">
+          <label>Where are you located?</label>
+          <br>
+          <input type="text" id="location">
+        </div>
+        <div>
+          <select class="form-control" id="devtype">
+            <option>Front-End</option>
+            <option>Back-End</option>
+            <option>Data-Science</option>
+          </select>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="planguage" value="polyglot" checked>
+            Polyglot
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="planguage" value="monoglot">
+            Monoglot
+          </label>
+        </div>
+        <div class="">
+          <div class="radio">
+            <label>
+              <input type="radio" name="platform" value="web" checked>
+              Web
+            </label>
+            <label>
+              <input type="radio" name="platform" value="mobile">
+              Mobile
+            </label>
+          </div>
+        </div>
+        <div class="">
+          <input type="submit" value="Submit">
+          <input type="reset">
+        </div>
+      </form>
+    </div>
   </div>
 
 
